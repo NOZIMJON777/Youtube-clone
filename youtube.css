@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto" , sans-serif;
+}
+
+
+.navbar-1 {
+    min-width: fit-content;
+    min-width: 500px;
+    width: 100%;
+    height: 56px;
+    border: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+
+.left-frame {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.center-frame {
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    width: 700px;
+    height: 40px;
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 2px;
+    padding: 0px 20px;
+    background-color: black;
+    color: gray;
+    font-size: medium;
+}
+
+.center-frame img {
+   height: 40px;
+   
+}
+
+.right-frame {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+aside {
+    max-width: 270px;
+    min-width:  230px;
+    height: 950px;
+    background-color: black;
+    color: rgb(201, 200, 200);
+    border: 1px solid gray;
+    border-bottom: none;
+    overflow:scroll;
+}
+
+.anasayfa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: rgb(87, 85, 85);
+    color: white;
+}
+
+.kesfet {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.abonelikler {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.kiltaplik {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.gecmis {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.videolarimiz {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.begendigim-videolar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.daha-fazla-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+h3 {
+    margin: 10px;
+    color: rgb(190, 187, 187);
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.the-game {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 10px 20px;
+}
+
+.lean-yo {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    margin: 10px 20px;
+}
+
+.best-kuafor {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin: 10px 20px;
+}
+
+.meyau-seu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin: 10px 20px;
+}
+
+.descover-design {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin: 10px 20px;
+}
+
+.build-game {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    margin: 10px 20px;
+}
+
+.vlogg {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+    margin: 10px 20px;
+
+}
+
+.daha-fazla-2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 20px;
+}
+.aside-last-text {
+    display: flex;
+    gap: 20px;
+    margin: 10px 20px;
+    color: rgb(201, 200, 200);
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+
+.menu {
+    max-width: fit-content;
+    min-width: fit-content;
+    width: 100%;
+    height: 56px;
+    margin: 0px 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu p {
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 15px;
+    padding: 5px 12px;
+    background-color: gray;
+    text-transform: capitalize;
+    color: rgb(231, 227, 227);
+}
+.menu .kino {
+    background-color: white;
+    color: gray;
+}
+
+
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid gray;
+    overflow: hidden;
+  
+}
+
+.video-1 {
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 20px; 
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-top: 10px;
+    margin-left: 44px;
+    color: gray;
+}
+.video-1-text :hover {
+    content: "";
+    color: aqua;
+}
+
+.video-2 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-3 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-4 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-5 {
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-6 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-7 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-8 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-9 {
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-10 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-11 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
+
+.video-12 {
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.image-avatar-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-1-text {
+    margin-left: 44px;
+    color: gray;
+}
